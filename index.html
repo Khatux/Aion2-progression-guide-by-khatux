@@ -1,101 +1,25 @@
 <!doctype html>
 <html lang="it">
 <head>
-<meta charset="utf-8">
-<meta name="viewport" content="width=device-width,initial-scale=1">
+<meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
 <title>AION 2 — Guida alla Progressione | Khatux</title>
-<meta name="description" content="Guida alla progressione di AION 2 dopo il livello 45 — GS, Tier 2, Tier 3, Ludra, Soul Bind, Mana Stones e contenuti giornalieri.">
-<link rel="preconnect" href="https://fonts.googleapis.com">
-<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=Barlow+Condensed:wght@500;600;700;800&family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
 <style>
-:root{--bg:#07080d;--panel:#10131b;--panel2:#151925;--text:#edf1f7;--muted:#9ba5b7;--accent:#62c7ff;--accent2:#9b7cff;--line:#252b39;--gold:#f2c96d}
-*{box-sizing:border-box}html{scroll-behavior:smooth}body{margin:0;background:radial-gradient(circle at 80% 0%,#172746 0,transparent 34%),radial-gradient(circle at 10% 20%,#24183d 0,transparent 30%),var(--bg);color:var(--text);font-family:Inter,system-ui,sans-serif;line-height:1.72}body:before{content:"";position:fixed;inset:0;pointer-events:none;background:linear-gradient(120deg,transparent 0 47%,rgba(98,199,255,.025) 50%,transparent 53%);opacity:.8}.wrap{width:min(1080px,calc(100% - 32px));margin:auto}.hero{padding:72px 0 46px;border-bottom:1px solid var(--line)}.eyebrow{font:700 15px "Barlow Condensed";letter-spacing:.18em;color:var(--accent);text-transform:uppercase}.hero h1{font:800 clamp(42px,7vw,78px)/.92 "Barlow Condensed";text-transform:uppercase;margin:14px 0 18px;letter-spacing:.01em}.hero h1 span{color:var(--accent)}.hero p{max-width:760px;color:var(--muted);font-size:17px}.by{display:inline-flex;gap:8px;align-items:center;margin-top:12px;padding:8px 12px;border:1px solid var(--line);border-radius:999px;background:#0d1017;color:#cdd5e2;font-size:13px}.layout{display:grid;grid-template-columns:220px 1fr;gap:28px;padding:34px 0 80px}.toc{position:sticky;top:22px;height:max-content}.toc a{display:block;color:var(--muted);text-decoration:none;padding:8px 10px;border-left:2px solid transparent;font-size:13px}.toc a:hover{color:var(--text);border-left-color:var(--accent)}main{min-width:0}.card{background:linear-gradient(180deg,rgba(21,25,37,.96),rgba(12,15,22,.96));border:1px solid var(--line);border-radius:18px;padding:28px;margin-bottom:18px;box-shadow:0 18px 50px rgba(0,0,0,.18)}h2{font:800 32px/1.05 "Barlow Condensed";text-transform:uppercase;margin:0 0 14px}h2 .num{color:var(--accent);margin-right:8px}h3{font-size:19px;margin:24px 0 8px;color:#fff}p{margin:10px 0;color:#cbd2df}strong{color:#fff}ul{padding-left:21px;color:#cbd2df}li{margin:7px 0}.callout{border-left:3px solid var(--accent);background:#0b121c;padding:15px 17px;margin:18px 0;border-radius:0 10px 10px 0}.goal{display:flex;gap:10px;flex-wrap:wrap;margin:18px 0}.pill{padding:8px 13px;border-radius:999px;background:#0b1019;border:1px solid #293245;color:#dce5f3;font-weight:700;font-size:13px}.pill b{color:var(--accent)}.footer{border-top:1px solid var(--line);padding:30px 0 50px;color:var(--muted);font-size:13px;text-align:center}@media(max-width:800px){.layout{grid-template-columns:1fr}.toc{position:static;display:flex;overflow:auto;gap:4px;padding-bottom:4px}.toc a{white-space:nowrap;border-left:0;border-bottom:2px solid transparent}.toc a:hover{border-left:0;border-bottom-color:var(--accent)}.card{padding:21px}.hero{padding-top:48px}}
+:root{--bg:#07080d;--panel:#10131b;--text:#edf1f7;--muted:#9ba5b7;--accent:#62c7ff;--line:#252b39}
+*{box-sizing:border-box}html{scroll-behavior:smooth}body{margin:0;background:radial-gradient(circle at 80% 0%,#172746 0,transparent 34%),radial-gradient(circle at 10% 20%,#24183d 0,transparent 30%),var(--bg);color:var(--text);font-family:Inter,system-ui,sans-serif;line-height:1.72}.wrap{width:min(1050px,calc(100% - 32px));margin:auto}.hero{padding:70px 0 45px;border-bottom:1px solid var(--line)}.eyebrow{font:700 15px "Barlow Condensed";letter-spacing:.18em;color:var(--accent);text-transform:uppercase}.hero h1{font:800 clamp(42px,7vw,78px)/.92 "Barlow Condensed";text-transform:uppercase;margin:14px 0 18px}.hero h1 span{color:var(--accent)}.hero p{max-width:760px;color:var(--muted);font-size:17px}.by{display:inline-block;margin-top:12px;padding:8px 13px;border:1px solid var(--line);border-radius:999px;background:#0d1017;color:#cdd5e2;font-size:13px}.layout{display:grid;grid-template-columns:210px 1fr;gap:28px;padding:34px 0 80px}.toc{position:sticky;top:20px;height:max-content}.toc a{display:block;color:var(--muted);text-decoration:none;padding:8px 10px;border-left:2px solid transparent;font-size:13px}.toc a:hover{color:#fff;border-left-color:var(--accent)}main{min-width:0}.content{background:linear-gradient(180deg,rgba(21,25,37,.96),rgba(12,15,22,.96));border:1px solid var(--line);border-radius:18px;padding:30px;box-shadow:0 18px 50px rgba(0,0,0,.18)}h1,h2,h3{font-family:"Barlow Condensed";text-transform:uppercase;line-height:1.05}main h1{display:none}h2{font-size:32px;margin:30px 0 12px;color:#fff}h2:first-child{margin-top:0}h3{font-size:20px;margin:24px 0 8px}p,li{color:#cbd2df}strong{color:#fff}blockquote{margin:20px 0;padding:14px 18px;border-left:3px solid var(--accent);background:#0b121c;color:#cbd2df}code{color:#9fdcff}.footer{border-top:1px solid var(--line);padding:30px 0 50px;color:var(--muted);font-size:13px;text-align:center}@media(max-width:800px){.layout{grid-template-columns:1fr}.toc{position:static;display:flex;overflow:auto;gap:4px}.toc a{white-space:nowrap;border-left:0;border-bottom:2px solid transparent}.content{padding:21px}}
 </style>
-</head>
-<body>
-<header class="hero"><div class="wrap">
-<div class="eyebrow">AION 2 · PROGRESSION GUIDE</div>
-<h1>DAL LIVELLO 45<br><span>ALL'ENDGAME</span></h1>
-<p>Una roadmap pratica per capire cosa fare dopo aver raggiunto il livello 45, come costruire il Gear Score e perché la progressione passa prima dai contenuti orizzontali.</p>
-<div class="by">GUIDA DI KHATUX · BLACK LOTUS</div>
-</div></header>
-<div class="wrap layout">
-<nav class="toc">
-<a href="#45">01 · LIVELLO 45</a><a href="#horizontal">02 · HORIZONTAL</a><a href="#gs">03 · GEAR SCORE</a><a href="#1400">04 · 1400 GS</a><a href="#2100">05 · 2100 GS</a><a href="#2400">06 · 2400 GS</a><a href="#2800">07 · 2800 GS</a><a href="#daily">08 · DAILY & WEEKLY</a>
-</nav>
-<main>
-<section id="45" class="card"><h2><span class="num">01</span>Arrivare al livello 45</h2>
-<p>Fino al 45 l'obiettivo principale è seguire la <strong>quest principale gialla</strong>. Durante il percorso, se incontri <strong>Feather</strong> e <strong>Seal Dungeon</strong> sulla strada, conviene completarli.</p>
-<p>Le side quest verdi non devono diventare una deviazione: prendile soprattutto quando sono lungo il percorso. Servono anche per ottenere punti utili alla crescita e, in alcuni momenti, per riempire i progressi necessari ad andare avanti con la quest principale.</p>
-<p>Controlla spesso la borsa: gli oggetti con la <strong>freccia verde</strong> indicano un possibile upgrade.</p>
-<div class="callout"><strong>Arma durante il leveling:</strong> portala circa a +3, arrivando al massimo a +5. Costa poco e rende il leveling più fluido. Quando trovi un'arma migliore puoi estrarre la precedente e recuperare il 100% delle Enhancement Stone, ma non il Kinah speso.</div>
-</section>
-
-<section id="horizontal" class="card"><h2><span class="num">02</span>Dopo il 45: completa l'horizontal</h2>
-<p>Una volta raggiunto il 45, la prima vera fase di progressione consiste nel completare i contenuti orizzontali. L'obiettivo è costruire la base del personaggio prima di consumare energia nei dungeon di Tier basso.</p>
-<ul><li>Completa le <strong>Feather</strong> della tua fazione.</li><li>Completa i <strong>Seal Dungeon</strong> della tua mappa.</li><li>Completa i <strong>Seal Dungeon</strong> nella mappa della fazione nemica.</li><li>Completa gli <strong>Stronghold</strong>.</li><li>Completa le <strong>side quest</strong> disponibili, comprese quelle che si sbloccano dopo il 45.</li><li>Completa i contenuti dell'<strong>Abyss</strong> collegati alla progressione.</li></ul>
-<p>Per raggiungere la mappa nemica si usa lo <strong>Space-Time Rift</strong>. Gli orari possono cambiare nella versione Global; nel riferimento KR il portale apre ogni 3 ore per 10 minuti e, una volta entrati, si può rimanere per un'ora.</p>
-<div class="callout"><strong>Perché farlo prima?</strong> Perché questi contenuti aumentano il tuo GS senza richiedere di bruciare energia nei dungeon di Tier 1. Il loro vero valore è prepararti al salto successivo.</div>
-</section>
-
-<section id="gs" class="card"><h2><span class="num">03</span>Capire il Gear Score</h2>
-<p>Il <strong>GS</strong> è, in questa fase, il numero da inseguire: è il requisito che determina l'accesso ai dungeon. Il CP diventa più importante più avanti, quando la progressione entra nell'ottimizzazione.</p>
-<div class="goal"><span class="pill"><b>+1</b> GS per upgrade dell'item level</span><span class="pill"><b>+5</b> GS per Amplify</span><span class="pill"><b>+1/+2/+3/+4</b> GS dalle Mana Stone</span><span class="pill"><b>1 punto</b> Debanium = 1 GS</span></div>
-<p>Le Unique gialle possono essere portate fino a +15 e poi amplificate. Le Mana Stone danno GS in base alla qualità: grigia +1, verde +2, blu +3, gialla +4.</p>
-<p>Anche il <strong>Debanium Board</strong> contribuisce direttamente: ogni punto investito vale 1 GS. Feather, Abyss e altri progressi orizzontali completano il quadro.</p>
-</section>
-
-<section id="1400" class="card"><h2><span class="num">04</span>Obiettivo 1400 GS · Saltare il Tier 1</h2>
-<p>Dopo aver completato l'horizontal, la priorità è arrivare a <strong>1400 GS</strong>. Nel riferimento della guida questo è il requisito del Tier 2 Global.</p>
-<p>Il motivo è semplice: <strong>se raggiungi 1400 puoi saltare il Tier 1</strong>. Invece di spendere energia per equipaggiamento che dovrai sostituire subito, inizi direttamente a investire la tua energia nel Tier 2 e acceleri la progressione.</p>
-<h3>Cosa equipaggiare</h3>
-<p>All'uscita dal 45 avrai soprattutto blu casuali dalle quest, la Unique weapon della main quest e il bracelet ottenuto dall'ultima Ascension. I bracelet vanno portati a <strong>+10</strong>, perché non vengono sostituiti fino a Ludra.</p>
-<p>Lo stesso principio vale per <strong>cintura e amuleto</strong>: vanno sviluppati perché rimangono utili per molto tempo. L'upgrade avviene tramite <strong>Morphing → Gear</strong>. Devono essere disequipaggiati da tutti i preset.</p>
-<div class="callout"><strong>Arma:</strong> in questa fase fermati a +10. Oltre +10 entra in gioco la possibilità di fallire e il costo in Kinah non giustifica l'investimento iniziale.</div>
-<p>Se il tuo GS è leggermente sotto 1400, puoi usare upgrade e Mana Stone per colmare la differenza. Una volta raggiunta la soglia, <strong>vai direttamente nei Tier 2</strong>.</p>
-</section>
-
-<section id="2100" class="card"><h2><span class="num">05</span>1400 → 2100 GS · Tier 2</h2>
-<p>Il Tier 2 fornisce il nuovo equipaggiamento necessario per raggiungere la soglia successiva. Con i gear Tier 2 e le Aana della Transcendence dovresti superare rapidamente <strong>2100 GS</strong>, anche senza investire subito in Mana Stone di alto livello.</p>
-<p>Per la Transcendence, in questa fase interessa soprattutto il <strong>GS</strong>: equipaggia la Aana di qualità più alta che possiedi e non preoccuparti ancora troppo di set bonus, statistiche o skill.</p>
-<p>Per l'equipaggiamento conviene continuare a ottenere armor, mentre gli <strong>accessori craftati</strong> diventano particolarmente interessanti. I <strong>ring</strong> sono una priorità perché possono avere skill attive e soglie come 12/16/20 che rappresentano grossi aumenti di potenza. Inoltre gli oggetti craftati hanno un Soul Bind aggiuntivo.</p>
-<div class="callout"><strong>Obiettivo:</strong> 2100 GS → accesso al Tier 3.</div>
-</section>
-
-<section id="2400" class="card"><h2><span class="num">06</span>2100 → 2400+ GS · Tier 3 e Transcendence</h2>
-<p>Con 2100 puoi iniziare il <strong>Tier 3</strong>. Da questo momento gli upgrade dell'equipaggiamento diventano più importanti e puoi iniziare a investire con maggiore decisione.</p>
-<p>L'obiettivo intermedio è circa <strong>2400 GS</strong>. A questo punto dovresti avere gear Tier 3 e Aana di qualità più alta; la combinazione permette di arrivare rapidamente intorno ai 2500 anche senza dipendere dalle Mana Stone.</p>
-<h3>Non distruggere le vecchie Unique</h3>
-<p>Quando ottieni un upgrade, non dissolvere automaticamente la Unique precedente. Usa il sistema di <strong>Transfer</strong>: puoi trasferire il livello di enhancement e i Soul Bind, mentre le Mana Stone non vengono trasferite.</p>
-<div class="callout"><strong>Da qui in avanti:</strong> puoi iniziare a portare i nuovi gear a +10 o oltre e cominciare a ragionare seriamente sui Soul Bind.</div>
-</section>
-
-<section class="card"><h2><span class="num">06B</span>Soul Bind · quando iniziare a ottimizzare</h2>
-<p>Dal Tier 3 in poi ha senso iniziare a cercare Soul Bind migliori. Tra le statistiche indicate nella guida, una delle più importanti da cercare è la <strong>Movement Speed</strong>, soprattutto sugli stivali.</p>
-<p>Non serve fare reroll indiscriminati. È più efficiente trovare un pezzo che possiede già la statistica desiderata, estrarre il Soul Bind e trasferirlo sul nuovo equipaggiamento, anche se il vecchio pezzo era già +10.</p>
-<p>La Movement Speed rende più semplice uscire dalle meccaniche dei boss senza dover ricorrere continuamente alla schivata e permette di continuare a fare DPS mentre ci si sposta.</p>
-</section>
-
-<section id="2800" class="card"><h2><span class="num">07</span>2800 GS · Ludra Sanctuary</h2>
-<p>Il grande traguardo della prima fase di Season 1 è <strong>2800 GS</strong>, indicato come requisito di accesso a <strong>Ludra Sanctuary</strong>.</p>
-<p>A questo punto la configurazione punta ad avere <strong>5 Unique Aana</strong> e a iniziare a sfruttare l'<strong>Amplify</strong>. L'idea è amplificare in modo progressivo, dando priorità a <strong>armi e guard</strong>, poi agli accessori.</p>
-<p>L'Amplify aggiunge GS e aumenta anche il danno. I valori esatti possono differire nella versione Global, quindi è meglio considerare questa parte come una direzione di progressione e non come numeri garantiti.</p>
-<h3>Mana Stone di alto livello</h3>
-<p>Una volta arrivato a questa fase, ha senso iniziare a cercare le <strong>Superior Mana Stone</strong> con statistiche offensive. Tra gli esempi indicati nella guida: Attack 10, Damage Boost, Weapon Damage Boost, Crit Damage Boost e bonus al danno frontale/posteriore.</p>
-<p>Non bisogna inseguire tutte le statistiche contemporaneamente: l'obiettivo è ottenere <strong>almeno una statistica utile</strong> e fermarsi, soprattutto nelle prime fasi.</p>
-</section>
-
-<section id="daily" class="card"><h2><span class="num">08</span>Daily e Weekly</h2>
-<p>In mezzo alla progressione continua a svolgere i contenuti giornalieri e settimanali. Sono attività semplici che aiutano a mantenere costante la crescita mentre lavori verso le soglie GS.</p>
-<ul><li><strong>5 Duty al giorno</strong></li><li><strong>12 Command Scroll a settimana</strong> — gli scroll possono essere acquistati dal mercante nella città principale</li><li>Daily Dungeon</li><li>Ascension Trial</li><li>Shugo</li><li>Invasion</li><li>Nightmare</li></ul>
-<p>Il punto non è fermarsi a completare ogni cosa prima di progredire: questi contenuti vanno integrati nella normale routine mentre si sale da una soglia GS alla successiva.</p>
-</section>
-
-<section class="card"><h2>La progressione in una frase</h2>
-<p><strong>45 → completa l'horizontal → 1400 GS → salta Tier 1 → Tier 2 → 2100 GS → Tier 3 → ottimizza Soul Bind → 2800 GS → Ludra → inizia a puntare sul CP e sulle Mana Stone superiori.</strong></p>
-<div class="callout">Questa guida è una roadmap di progressione basata sul video di riferimento e pensata per non perdersi nelle prime fasi. Alcuni requisiti e valori possono cambiare con la versione Global.</div>
-</section>
-</main></div>
+</head><body>
+<header class="hero"><div class="wrap"><div class="eyebrow">AION 2 · PROGRESSION GUIDE</div><h1>DAL LIVELLO 45<br><span>ALL'ENDGAME</span></h1><p>La guida alla progressione di Khatux: cosa fare dopo il 45, come costruire il GS e come arrivare ai contenuti endgame senza sprecare risorse.</p><div class="by">GUIDA DI KHATUX · BLACK LOTUS</div></div></header>
+<div class="wrap layout"><nav class="toc" id="toc"></nav><main><article class="content" id="guide"><p>Caricamento guida…</p></article></main></div>
 <footer class="footer">AION 2 Progression Guide · by Khatux · Black Lotus</footer>
+<script src="https://cdn.jsdelivr.net/npm/marked/marked.min.js"></script>
+<script>
+fetch('content/guide.md?'+Date.now()).then(r=>{if(!r.ok)throw new Error('Guide non disponibile');return r.text()}).then(md=>{
+ document.getElementById('guide').innerHTML=marked.parse(md);
+ const heads=[...document.querySelectorAll('#guide h2')];
+ const toc=document.getElementById('toc');
+ heads.forEach((h,i)=>{h.id='s'+i;const a=document.createElement('a');a.href='#s'+i;a.textContent=(String(i+1).padStart(2,'0'))+' · '+h.textContent;toc.appendChild(a)});
+}).catch(e=>document.getElementById('guide').innerHTML='<p>Impossibile caricare la guida.</p>');
+</script>
 </body></html>
