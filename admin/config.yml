@@ -1,0 +1,22 @@
+backend:
+  name: turbo-github
+  repo: Khatux/Aion2-progression-guide-by-khatux
+  branch: main
+
+media_folder: "content/uploads"
+public_folder: "/content/uploads"
+
+locale: "it"
+
+collections:
+  - name: "guide"
+    label: "Guida Progressione"
+    files:
+      - label: "Guida AION 2"
+        name: "progressione"
+        file: "content/guide.md"
+        fields:
+          - label: "Contenuto"
+            name: "body"
+            widget: "markdown"
+            hint: "Modifica qui la guida. Non serve conoscere HTML o GitHub."
